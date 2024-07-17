@@ -1,6 +1,6 @@
 ## Simulation data for "Characterization of a novel nicotinic acetylcholine receptor subtype preferentially sensitive to biogenic amines"
 
-Reference DOI: <doi for when its published>
+Reference DOI: *placeholder for when its published*
 
 
 - `REST_*`: Contains files for the replica exchange simulation with bee alpha5 WT/mutants with either dopamine or acetylcholine 
