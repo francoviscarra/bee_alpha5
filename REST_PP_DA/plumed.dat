@@ -1,0 +1,15 @@
+UNITS  LENGTH=nm ENERGY=kj/mol
+
+
+MOLINFO STRUCTURE=../npt.pdb
+
+lig: GROUP ATOMS={@mda:{resname DPM and not name H*}}  
+
+bsite: COM ATOMS={@mda:{(segid A and (resid 115 or resid 171 or resid 172 or resid 173 or resid 213 or resid 215 or resid 216 or resid 220)) or (segid B and (resid 58 or resid 77 or resid 78 or resid 79 or resid 141 or resid 142 or resid 143 or resid 144)) and name CA}}
+
+d1: DISTANCES GROUPA=lig GROUPB=bsite HIGHEST
+
+uwall: UPPER_WALLS ARG=d1.highest AT=0.6 KAPPA=10000 EXP=2 EPS=1 OFFSET=0
+
+
+PRINT ARG=* FILE=colvar STRIDE=5000
