@@ -5,6 +5,7 @@ Reference DOI: *placeholder for when its published*
 
 - `REST_*`: Contains files for the replica exchange simulation with bee alpha5 WT/mutants with either dopamine or acetylcholine 
     - `prepare_replicas.bash`: Script to prepare topologies for the REST simulation
+    - `hot.top`: Topology ready for tempering with plumed partial tempering.
     - `md.mdp`: Contains the parameters for the MD simulation
     - `npt.gro`: Starting coordinates for the simulation
     - `analysis`
