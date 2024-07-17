@@ -1,4 +1,6 @@
-# Simulation data for "Characterization of a novel nicotinic acetylcholine receptor subtype preferentially sensitive to biogenic amines"
+# Characterization of a novel nicotinic acetylcholine receptor subtype preferentially sensitive to biogenic amines
+
+Authors: Eleanor L. Mitchell, Emily B. Armstrong,  Franco Viscarra, Isabel Bermudez, Philip C. Biggin, James A. Goodchild and Andrew K. Jones.
 
 Reference DOI: *placeholder for when its published*
 
