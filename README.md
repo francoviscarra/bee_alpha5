@@ -6,7 +6,8 @@ Reference DOI: *placeholder for when its published*
 
 ## Contents:
 
-- `REST_*`: Contains files for the replica exchange simulation with bee alpha5 WT/mutants with either dopamine or acetylcholine 
+- `REST_*`: Contains files for the replica exchange simulation with bee alpha5 WT/mutants with either dopamine or acetylcholine
+    - `plumed.dat`: Contains the plumed input file with the FB restraint for the ligand
     - `prepare_replicas.bash`: Script to prepare topologies for the REST simulation
     - `hot.top`: Topology ready for tempering with plumed partial tempering.
     - `md.mdp`: Contains the parameters for the MD simulation
