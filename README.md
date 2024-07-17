@@ -3,7 +3,7 @@
 Reference DOI: <doi for when its published>
 
 
-- `REST_*`: Contains files for the replica exchange simulation with dopamine and bee alpha5
+- `REST_*`: Contains files for the replica exchange simulation with bee alpha5 WT/mutants with either dopamine or acetylcholine 
     - `prepare_replicas.bash`: Script to prepare topologies for the REST simulation
     - `md.mdp`: Contains the parameters for the MD simulation
     - `npt.gro`: Starting coordinates for the simulation
