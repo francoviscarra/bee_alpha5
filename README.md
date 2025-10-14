@@ -18,3 +18,4 @@ Reference DOI: *placeholder for when its published*
         - `topol0.top`: Topology file for replica 0
         - `clean.xtc`: Trajectory file for replica 0 dt = 100ps / no solvent
         - `clean.gro`: Coordinate file for replica 0 no solvent
+- `GBSA_DATA.csv`: Contains data for figure 5d
